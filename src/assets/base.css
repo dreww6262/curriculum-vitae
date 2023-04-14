@@ -1,7 +1,7 @@
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
 
-  --gradient-light: linear-gradient(90deg, rgba(255, 175, 189, 1) 2%, rgb(255, 195, 160, 1) 100%);
+  --gradient-light: linear-gradient(90deg, rgba(210, 255, 255, 1) 2%, rgb(6, 148, 198, 1) 100%);
   --gradient-dark: linear-gradient(90deg, rgba(20, 30, 48, 1) 2%, rgba(36, 59, 85, 1) 100%);
 
   --vt-c-white: #ffffff;

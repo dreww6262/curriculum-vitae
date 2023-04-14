@@ -1,86 +1,59 @@
 <script setup lang="ts">
 import WelcomeItem from './WelcomeItem.vue'
-import DocumentationIcon from './icons/IconDocumentation.vue'
-import ToolingIcon from './icons/IconTooling.vue'
-import EcosystemIcon from './icons/IconEcosystem.vue'
-import CommunityIcon from './icons/IconCommunity.vue'
-import SupportIcon from './icons/IconSupport.vue'
+import Icon from './Icon.vue'
 </script>
 
 <template>
   <WelcomeItem>
     <template #icon>
-      <DocumentationIcon />
+      <Icon imgName="reprise.avif" />
     </template>
-    <template #heading>Documentation</template>
-
-    Vue’s
-    <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
-    provides you with all information you need to get started.
+    <template #heading> <a href="http://www.reprise.com" target="_blank" rel="noopener">Reprise</a></template>
+    <p>Feb 2022 - Jan 2023 | Full Stack Engineer</p>
+    <ul>
+      <li>Implemented full stack features on the company's flagship Demo Editor</li>
+      <li>Optimized data models and backend processes</li>
+      <li>Created queries to tell meaningful stories through our analytics subsystem</li>
+    </ul>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
-      <ToolingIcon />
+      <Icon imgName="apokoz.jpg" />
     </template>
-    <template #heading>Tooling</template>
+    <template #heading><a href="https://github.com/akinpoz/akinpoz-mvp">Apokoz</a></template>
 
-    This project is served and bundled with
-    <a href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener">Vite</a>. The
-    recommended IDE setup is
-    <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VSCode</a> +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank" rel="noopener">Volar</a>. If
-    you need to test your components and web pages, check out
-    <a href="https://www.cypress.io/" target="_blank" rel="noopener">Cypress</a> and
-    <a href="https://on.cypress.io/component" target="_blank">Cypress Component Testing</a>.
-
-    <br />
-
-    More instructions are available in <code>README.md</code>.
+    <p>May 2021 - Dec 2021 | Founder & Chief Product Officer</p>
+    <ul>
+      <li>Designed the first application to bring in novel revenue streams for restaurants.</li>
+      <li>Implemented a full-stack MVP in React.js, Node.js, Javascript, AWS, CSS, and HTML.</li>
+      <li>Made it to the final round of the &#x27;On Deck X&#x27; accelerator.</li>
+    </ul>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
-      <EcosystemIcon />
+      <Icon imgName="bio.jpg" />
     </template>
-    <template #heading>Ecosystem</template>
+    <template #heading><a href="https://github.com/dreww6262/Bio">Bio</a></template>
 
-    Get official tools and libraries for your project:
-    <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">Pinia</a>,
-    <a href="https://router.vuejs.org/" target="_blank" rel="noopener">Vue Router</a>,
-    <a href="https://test-utils.vuejs.org/" target="_blank" rel="noopener">Vue Test Utils</a>, and
-    <a href="https://github.com/vuejs/devtools" target="_blank" rel="noopener">Vue Dev Tools</a>. If
-    you need more resources, we suggest paying
-    <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">Awesome Vue</a>
-    a visit.
+    <p>May 2020 - May 2021 | Founder & Chief Technical Officer</p>
+    <ul>
+      <li>Created a product geared towards self starters and influencers to promote their brand.</li>
+      <li>Implemented a full stack MVP using Swift, Kotlin, and Google Cloud Platform.</li>
+    </ul>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
-      <CommunityIcon />
+      <Icon imgName="booz_allen.jpg" />
     </template>
-    <template #heading>Community</template>
+    <template #heading><a href="https://www.boozallen.com/expertise/products/cybersecurity-products/district-defend.html">Booz Allen | District Defend</a></template>
 
-    Got stuck? Ask your question on
-    <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Vue Land</a>, our official
-    Discord server, or
-    <a href="https://stackoverflow.com/questions/tagged/vue.js" target="_blank" rel="noopener"
-      >StackOverflow</a
-    >. You should also subscribe to
-    <a href="https://news.vuejs.org" target="_blank" rel="noopener">our mailing list</a> and follow
-    the official
-    <a href="https://twitter.com/vuejs" target="_blank" rel="noopener">@vuejs</a>
-    twitter account for latest news in the Vue world.
+    <p>May 2019 - Aug 2019 | Software Development Intern</p>
+    <ul>
+      <li>Worked in an Agile workflow to create production components using AngularDart on top of a .NET Core framework.</li>
+    </ul>
   </WelcomeItem>
 
-  <WelcomeItem>
-    <template #icon>
-      <SupportIcon />
-    </template>
-    <template #heading>Support Vue</template>
-
-    As an independent project, Vue relies on community backing for its sustainability. You can help
-    us by
-    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
-  </WelcomeItem>
 </template>

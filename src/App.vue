@@ -4,21 +4,28 @@ import ContactCard from './components/ContactCard.vue'
 </script>
 
 <template>
-  <header>
-    
-    <div class="wrapper">
-      <ContactCard />
-
-      <nav>
-        <RouterLink to="/quotes">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/about">Projects</RouterLink>
-        <RouterLink to="/about">Contact Me</RouterLink>
-      </nav>
+  <div class="app-container">
+    <div class="background-image-container">
+      <img src="@/assets/providence.jpeg" class="background_image"/>
     </div>
-  </header>
+    <div class="content">
+      <header>
+        
+        <div class="wrapper">
+          <ContactCard />
 
-  <RouterView />
+          <nav>
+            <RouterLink to="/">Work Experience</RouterLink>
+            <RouterLink to="/about">Personal Projects</RouterLink>
+            <RouterLink to="/quotes">About Me</RouterLink>
+            <RouterLink to="/about">Contact</RouterLink>
+          </nav>
+        </div>
+      </header>
+
+      <RouterView />
+    </div>
+  </div>
 </template>
 
 <style scoped>
@@ -30,6 +37,35 @@ header {
 .logo {
   display: block;
   margin: 0 auto 2rem;
+}
+
+.app-container {
+  width: 100%;
+  height: 100%;
+  place-items: center;
+  margin: 0 auto;
+}
+
+.background_image_container {
+  position: relative;
+  overflow: hidden;
+}
+
+.background_image {
+  min-height: 100%;
+  min-width: 100%;
+  opacity: 25%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.content {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem;
+  margin: 0 auto;
 }
 
 nav {
