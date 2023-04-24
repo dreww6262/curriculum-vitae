@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheQuote from '../components/TheQuote.vue'
+import TheProject from '../components/TheProject.vue'
 </script>
 
 <template>
   <main>
-    <TheQuote />
+    <TheProject />
   </main>
 </template>

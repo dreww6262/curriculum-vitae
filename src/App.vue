@@ -16,9 +16,9 @@ import ContactCard from './components/ContactCard.vue'
 
           <nav>
             <RouterLink to="/">Work Experience</RouterLink>
-            <RouterLink to="/about">Personal Projects</RouterLink>
-            <RouterLink to="/quotes">About Me</RouterLink>
-            <RouterLink to="/about">Contact</RouterLink>
+            <RouterLink to="/projects">Personal Projects</RouterLink>
+            <RouterLink to="/about">About Me</RouterLink>
+            <RouterLink to="/contact">Contact</RouterLink>
           </nav>
         </div>
       </header>
