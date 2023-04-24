@@ -9,7 +9,7 @@ const quotes = [
 
 <template>
     <div>
-        <img alt="Profile Picture" src="@/assets/profile_pic.jpg" width="240" />
+        <img alt="Profile Picture" src="src/assets/profile_pic.jpg" width="240" />
         <ul>
             <li v-for="quote in quotes">
                 <h4>{{ quote }}</h4>

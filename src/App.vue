@@ -6,7 +6,7 @@ import ContactCard from './components/ContactCard.vue'
 <template>
   <div class="app-container">
     <div class="background-image-container">
-      <img src="@/assets/providence.jpeg" class="background_image"/>
+      <img src="src/assets/providence.jpeg" class="background_image"/>
     </div>
     <div class="content">
       <header>

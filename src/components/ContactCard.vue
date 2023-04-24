@@ -5,7 +5,7 @@ const blurb = "Creating Full Stack Web Based Solutions Since 2020"
 
 <template>
     <div class="align-center">
-        <img alt="Vue logo" class="logo" src="@/assets/logo.png" width="125" height="125" />
+        <img alt="Vue logo" class="logo" src="src/assets/logo.png" width="125" height="125" />
         <h2>{{ name }}</h2>
         <h4>{{ blurb }}</h4>
     </div>
